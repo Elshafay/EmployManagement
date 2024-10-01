@@ -13,7 +13,7 @@ namespace Demo.PL.Controllers
     {
         private readonly IUnitOfWork _UntitOfWorker;
         private readonly IMapper _mapper;
-        private readonly IMapper _mapper2;
+        
 
         public WorkersController(IUnitOfWork unitOfWork , IMapper mapper) 
         {
